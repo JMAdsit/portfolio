@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Font settings*/
+header, footer {
+  color: rgb(189, 238, 230);
+}
+h1 {
+  font-family: 'Brush Script MT', Garamond, serif;
+  font-size: 50px;
+}
+h3 {
+  font-size: 15px;
+}
+h2 {
+  font-family: Perpetua, sans-serif;
+}
+p {
+  font-family: Cambria, serif;
+}
+
+/*Page colors*/
+body {
+  background: rgb(189, 238, 230);
+}
+header, footer {
+  background: rgb(62, 78, 76);
+}
+
+/*Header/footer sizes*/
+header {
+  padding: 3px;
+}
+footer {
+  margin-top: 20px;
+  height: 20px;
+}
+
+/*Content display width */
+img, p, ol, ul, hr {
+  width: 60vw;
+  margin: auto;
+}
+@media(min-width: 700px) {
+  img, p, ol, ul, hr {
+  width: 420px;
+  margin: auto;
+}
+}
+img {
+  display: block;
+}
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+/*Margins for headings and sections*/
+h1 {
+  margin-bottom: 0px;
+}
+h3 {
+  margin-top: 0px;
+}
+section {
+  margin-top: 50px;
+  margin-bottom: 68px;
+}
+
+/*Link pseudo-classes*/
+a:link {
+  color: blue;
+}
+a:visited {
+  color: blueviolet;
+}
+a:hover {
+  color:  rgb(103, 131, 127);
+}
+a:active {
+  color: rgb(62, 78, 76);
+}
