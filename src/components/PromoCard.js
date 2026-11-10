@@ -10,10 +10,10 @@ function PromoCard({title, imageUrl, textBody, linkText, linkUrl, horizontal = f
                 <TitleCheck title={title} />
 
                 <Row>
-                    <Col>
+                    <Col xs={12} md={6}>
                         <Card.Img src={imageUrl} />
                     </Col>
-                    <Col className="promoTextandLinkFrame">
+                    <Col className="promoTextandLinkFrame" xs={12} md={6}>
                         <Row>
                             <Card.Body>
                                 <p className="card-text">

@@ -6,11 +6,11 @@ import { FaLinkedin } from "react-icons/fa";
 function ContactMe () {
 
     return (
-        <div>
+        <div className="content">
             <title>Jeremiah Adsit | Contact</title>
             <Row>
-                <Col>
-                    <Card>
+                <Col xs={12} md={6}>
+                    <Card className="card my-3 m-auto">
                         <div className="card-header">
                             <h2 className="card-title text-center">
                                 {"Contact Me"}
@@ -19,8 +19,8 @@ function ContactMe () {
                                 <ContactForm />
                     </Card>
                 </Col>
-                <Col>
-                    <Card>
+                <Col xs={12} md={6}>
+                    <Card className="card my-3 m-auto">
                         <div className="card-header">
                             <h2 className="card-title text-center">
                                 {"Contact Info"}

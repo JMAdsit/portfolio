@@ -1,4 +1,4 @@
-import TextCard from "../components/TextCard";
+import PromoCard from "../components/PromoCard";
 
 /**
  * Defines the "Not Found" page that is displayed for any unmatched route.
@@ -11,7 +11,7 @@ function NotFound() {
   
     return (
         <div className="NotFound content d-flex flex-column justify-content-center">
-            <TextCard 
+            <PromoCard 
                 title={title}
                 body={body}    
             />

@@ -1,5 +1,4 @@
 import { Row, Col } from "react-bootstrap";
-import Spheal from "../assets/Spheal.gif";
 import PromoCard from "../components/PromoCard";
 
 function Projects() {
@@ -8,19 +7,19 @@ function Projects() {
         <div className="content">
             <title>Jeremiah Adsit | Projects</title>
             <Row>
-                <Col>
+                <Col xs={12} md={6}>
                     <PromoCard 
-                    imageUrl={Spheal} 
+                    // imageUrl={} 
                     textBody={"Bup bup"} />
                 </Col>
-                <Col>
+                <Col xs={12} md={6}>
                     <PromoCard 
-                    imageUrl={Spheal} 
+                    // imageUrl={} 
                     textBody={"Bup bup"} />
                 </Col>
-                <Col>
+                <Col xs={12} md={6}>
                     <PromoCard 
-                    imageUrl={Spheal} 
+                    // imageUrl={} 
                     textBody={"Bup bup"} />
                 </Col>
             </Row>

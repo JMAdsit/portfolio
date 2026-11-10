@@ -6,7 +6,7 @@ function Menu() {
     return (
         <header role="banner">
             <nav id="nav" className="navbar justify-content-end m-auto">
-                <Stack direction="horizontal" gap={5}>
+                <Stack direction="horizontal"> {/* gap={5} */}
                     <NavButton name="Home" link="/portfolio/" />
                     {/* <NavButton name="Projects" link="/portfolio/projects" />  */}
                     <NavButton name="About" link="/portfolio/about" />

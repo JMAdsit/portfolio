@@ -25,7 +25,7 @@ function Home() {
             />
 
             <Row className="cardRow">
-                <Col>
+                <Col xs={12} md={6}>
                     <PromoCard 
                         imageUrl={ReferralPic} 
                         textBody={referralText}
@@ -34,7 +34,7 @@ function Home() {
                         insertedClasses={"mainPageSubCards"}
                     />
                 </Col>
-                <Col>
+                <Col xs={12} md={6}>
                     <PromoCard 
                         imageUrl={EmailMe} 
                         textBody={contactText}

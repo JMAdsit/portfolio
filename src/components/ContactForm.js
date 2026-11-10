@@ -81,7 +81,8 @@ const ContactForm = () => {
                 <button 
                     className="submitButton button"
                     type="submit">
-                    Send Message 
+                        <p>Send Message </p>
+                    
                     <FaChevronCircleRight className="buttonIcon" />
                 </button>
             </Row>
